@@ -1,0 +1,14 @@
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\cantaBancariaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\cantaBancariaApp.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\cantaBancariaApp.AssemblyInfo.cs
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\cantaBancariaApp.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\bin\Debug\net8.0\cantaBancariaApp.exe
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\bin\Debug\net8.0\cantaBancariaApp.deps.json
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\bin\Debug\net8.0\cantaBancariaApp.runtimeconfig.json
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\bin\Debug\net8.0\cantaBancariaApp.dll
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\bin\Debug\net8.0\cantaBancariaApp.pdb
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\cantaBancariaApp.dll
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\refint\cantaBancariaApp.dll
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\cantaBancariaApp.pdb
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\cantaBancariaApp.genruntimeconfig.cache
+C:\Users\rafae\Documents\FACULDADE\3°Periodo\POO\cantaBancariaApp\obj\Debug\net8.0\ref\cantaBancariaApp.dll
