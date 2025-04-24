@@ -1,6 +1,5 @@
 ﻿
-
-using static System.Net.Mime.MediaTypeNames;
+// SEGUNDO COMMIT 
 
 Console.WriteLine("---Banco Darold---\n");
 
