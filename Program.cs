@@ -1,4 +1,18 @@
 ﻿
+//try
+//{
+//    Console.WriteLine("Digite o primeiro numero");
+//    int a = Convert.ToInt32(Console.ReadLine());
+//    Console.WriteLine("Digite o segundo numero");
+//    int b = Convert.ToInt32(Console.ReadLine());
+
+//    int c = a / b;
+//    Console.WriteLine($"Resultado: {c}");
+//}catch(Exception ex)
+//{
+//    Console.WriteLine("Ocorreu um erro! "+ex.Message);
+//}
+
 // SEGUNDO COMMIT 
 // TERCEIRO COMMIT TESTE
 Console.WriteLine("---Banco Darold---\n");

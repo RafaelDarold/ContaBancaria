@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rafae\\Documents\\FACULDADE\\3\u00B0Periodo\\POO\\cantaBancariaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26B336E5-76E3-4C0B-9A6A-F569BA76FAB1}|ContaBancaria.csproj|c:\\users\\rafae\\documents\\faculdade\\3\u00B0periodo\\poo\\cantabancariaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26B336E5-76E3-4C0B-9A6A-F569BA76FAB1}|ContaBancaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26B336E5-76E3-4C0B-9A6A-F569BA76FAB1}|ContaBancaria.csproj|c:\\users\\rafae\\documents\\faculdade\\3\u00B0periodo\\poo\\cantabancariaapp\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26B336E5-76E3-4C0B-9A6A-F569BA76FAB1}|ContaBancaria.csproj|solutionrelative:conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26B336E5-76E3-4C0B-9A6A-F569BA76FAB1}|ContaBancaria.csproj|c:\\users\\rafae\\documents\\faculdade\\3\u00B0periodo\\poo\\cantabancariaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26B336E5-76E3-4C0B-9A6A-F569BA76FAB1}|ContaBancaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,25 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Documents\\FACULDADE\\3\u00B0Periodo\\POO\\cantaBancariaApp\\Conta.cs",
               "RelativeDocumentMoniker": "Conta.cs",
               "ToolTip": "C:\\Users\\rafae\\Documents\\FACULDADE\\3\u00B0Periodo\\POO\\cantaBancariaApp\\Conta.cs",
               "RelativeToolTip": "Conta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T23:34:34.728Z"
+              "WhenOpened": "2025-04-16T23:34:34.728Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rafae\\Documents\\FACULDADE\\3\u00B0Periodo\\POO\\cantaBancariaApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\rafae\\Documents\\FACULDADE\\3\u00B0Periodo\\POO\\cantaBancariaApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T23:34:09.292Z",
               "EditorCaption": ""

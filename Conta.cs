@@ -1,4 +1,5 @@
-﻿using System.Xml;
+﻿
+// Metodo Construtor
 
 public class Conta
 {
@@ -6,6 +7,19 @@ public class Conta
     public string numeroConta;
     public string nomeProprietario;
     public double saldo;
+
+    public Conta(int id, string conta, string nomeProp, double saldo)
+    {
+        idAgencia = id;
+        numeroConta = conta;
+        nomeProprietario = nomeProp;
+        this.saldo = saldo;
+    }
+
+    public Conta()
+    {
+
+    }
     public void Depositar(double valorDep)
     {
         if (valorDep <= 0)
