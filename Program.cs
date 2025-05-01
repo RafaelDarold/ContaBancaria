@@ -1,105 +1,95 @@
-﻿
-//try
-//{
-//    Console.WriteLine("Digite o primeiro numero");
-//    int a = Convert.ToInt32(Console.ReadLine());
-//    Console.WriteLine("Digite o segundo numero");
-//    int b = Convert.ToInt32(Console.ReadLine());
-
-//    int c = a / b;
-//    Console.WriteLine($"Resultado: {c}");
-//}catch(Exception ex)
-//{
-//    Console.WriteLine("Ocorreu um erro! "+ex.Message);
-//}
-
-// SEGUNDO COMMIT 
-// TERCEIRO COMMIT TESTE
-Console.WriteLine("---Banco Darold---\n");
-
-List<Conta> listaContaBanc = new List<Conta>();
-
-while (true)
+﻿try
 {
-    Console.ReadKey();
-    Console.Clear();
-    Console.Write("1 para cadastrar uma nova CONTA:\n2 para LISTAR as contas:\n3 realizar Operações Bancarias:\n4 para SAIR:\n\nOpção:");
-    int op = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine();
-    Console.WriteLine();
+    Console.WriteLine("---Banco Darold---\n");
 
-    if (op == 1)
+    List<Conta> listaContaBanc = new List<Conta>();
+
+    while (true)
     {
-        Conta conta = new Conta();
+        Console.ReadKey();
+        Console.Clear();
+        Console.Write("1 para cadastrar uma nova CONTA:\n2 para LISTAR as contas:\n3 realizar Operações Bancarias:\n4 para SAIR:\n\nOpção:");
+        int op = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+        Console.WriteLine();
 
-        Console.WriteLine("Cadastre sua Conta");
-        Console.Write("Informe o ID da conta: ");
-        conta.idAgencia = Convert.ToInt32(Console.ReadLine());
-
-        Console.WriteLine("Informe o número da conta: ");
-        conta.numeroConta = Console.ReadLine();
-
-        Console.WriteLine("Informe o nome do proprietario da conta: ");
-        conta.nomeProprietario = Console.ReadLine();
-
-
-        listaContaBanc.Add(conta);
-
-        Console.WriteLine("CONTA CADASTRADA COM SUCESSO!");
-    }
-    else if (op == 2)
-    {
-        foreach (Conta cont in listaContaBanc)
+        if (op == 1)
         {
-            Console.WriteLine($"ID: {cont.idAgencia} - Nº CONTA: {cont.numeroConta} " +
-                $"- NOME: {cont.nomeProprietario} - SALDO: {cont.saldo.ToString("C2")}");
+            Conta conta = new Conta();
+
+            Console.WriteLine("Cadastre sua Conta");
+            Console.Write("Informe o ID da conta: ");
+            conta.SetIdAgencia(Convert.ToInt32(Console.ReadLine()));
+
+            Console.WriteLine("Informe o número da conta: ");
+            conta.SetNumeroConta(Console.ReadLine());
+
+            Console.WriteLine("Informe o nome do proprietario da conta: ");
+            conta.SetNomeProprietario(Console.ReadLine());
+
+
+            listaContaBanc.Add(conta);
+
+            Console.WriteLine("CONTA CADASTRADA COM SUCESSO!");
         }
-    }
-    else if (op == 3)
-    {
-        Console.Write("Informe o numero da sua conta:");
-        Conta conta = listaContaBanc.Find(conta => conta.idAgencia == Convert.ToInt32(Console.ReadLine()));
-        if (conta != null)
+        else if (op == 2)
         {
-
-            while (true)
+            foreach (Conta cont in listaContaBanc)
             {
-                Console.ReadKey();
-                Console.Clear();
-                Console.Write("Digite 1 para DEPOSITAR, 2 para SACAR ou 3 para SAIR: ");
-                op = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine();
-                Console.WriteLine();
+                Console.WriteLine($"ID: {cont.getIdAgencia} - Nº CONTA: {cont.GetNumeroConta} " +
+                    $"- NOME: {cont.GetNomeProprietario} - SALDO: {cont.GetSaldo().ToString("C2")}");
+            }
+        }
+        else if (op == 3)
+        {
+            Console.Write("Informe o numero da sua conta:");
+            Conta conta = listaContaBanc.Find(conta => conta.getIdAgencia() == Convert.ToInt32(Console.ReadLine()));
+            if (conta != null)
+            {
 
-                if (op == 1)
+                while (true)
                 {
-                    Console.Write("Informe o valor que deseja depositar:");
-                    conta.Depositar(Convert.ToDouble(Console.ReadLine()));
-                }
-                else if (op == 2)
-                {
-                    Console.WriteLine("Realizar saque.");
-                    Console.Write("Informe o valor que deseja sacar");
-                    conta.Sacar(Convert.ToDouble(Console.ReadLine()));
-                }
-                else if (op == 3)
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Opção invalida!");
+                    Console.ReadKey();
+                    Console.Clear();
+                    Console.Write("Digite 1 para DEPOSITAR, 2 para SACAR ou 3 para SAIR: ");
+                    op = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine();
+                    Console.WriteLine();
+
+                    if (op == 1)
+                    {
+                        Console.Write("Informe o valor que deseja depositar:");
+                        conta.Depositar(Convert.ToDouble(Console.ReadLine()));
+                    }
+                    else if (op == 2)
+                    {
+                        Console.WriteLine("Realizar saque.");
+                        Console.Write("Informe o valor que deseja sacar");
+                        conta.Sacar(Convert.ToDouble(Console.ReadLine()));
+                    }
+                    else if (op == 3)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Opção invalida!");
+                    }
                 }
             }
         }
+        else if (op == 4)
+        {
+            break;
+        }
+        else
+        {
+            Console.WriteLine("Opção invalida!");
+        }
+
     }
-    else if (op == 4)
-    {
-        break;
-    }
-    else
-    {
-        Console.WriteLine("Opção invalida!");
-    }
-    
 }
+catch(Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}finally { Console.ReadLine(); }

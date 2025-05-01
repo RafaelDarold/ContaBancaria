@@ -3,10 +3,10 @@
 
 public class Conta
 {
-    public int idAgencia;
-    public string numeroConta;
-    public string nomeProprietario;
-    public double saldo;
+    private int idAgencia;
+    private string numeroConta;
+    private string nomeProprietario;
+    private double saldo;
 
     public Conta(int id, string conta, string nomeProp, double saldo)
     {
@@ -19,6 +19,68 @@ public class Conta
     public Conta()
     {
 
+    }
+    
+    //GET E SET
+    public void SetIdAgencia(int idAgencia)
+    {
+        if(idAgencia > 0)
+        {
+            this.idAgencia = idAgencia;
+        }
+        else
+        {
+            throw new Exception("ID inválido!");
+        }
+    }
+    public int getIdAgencia()
+    {
+        return this.idAgencia;
+    }
+    public void SetNumeroConta(string numeroConta)
+    {
+        if(numeroConta.Length > 0)
+        {
+            this.numeroConta = numeroConta;
+        }
+        else
+        {
+            throw new Exception("Número da Conta inválido");
+        }
+    }
+    public string GetNumeroConta()
+    {
+        return this.numeroConta;
+    }
+    public void SetNomeProprietario(string nomeProprietario)
+    {
+        if(nomeProprietario.Length > 0)
+        {
+            this.nomeProprietario = nomeProprietario;
+        }
+        else
+        {
+            throw new Exception("Nome de proprietario inválido");
+        }
+    }
+    public string GetNomeProprietario()
+    {
+        return this.nomeProprietario;
+    }
+    public void SetSaldo(double saldo)
+    {
+        if (saldo > 0)
+        {
+            this.saldo = saldo;
+        }
+        else
+        {
+            throw new Exception("Valor Inválido!");
+        }
+    }
+    public double GetSaldo()
+    {
+        return saldo;
     }
     public void Depositar(double valorDep)
     {
