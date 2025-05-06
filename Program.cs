@@ -97,6 +97,8 @@
             func.SetEmailFuncionario(Console.ReadLine());
             Console.Write("Informe a data de admissão do Funcionario: ");
             func.SetDataAdmissaoFunc(Convert.ToDateTime(Console.ReadLine()));
+            Console.Write("Informe o sálario do Funcionario: ");
+            func.SetSalarioFunc(Convert.ToDouble(Console.ReadLine()));
 
 
         }

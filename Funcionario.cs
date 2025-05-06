@@ -99,7 +99,21 @@
     {
         return dataAdimissaoFunc;
     }
-
+    public void SetSalarioFunc(double salario)
+    {
+        if(salario > 0)
+        {
+            this.salarioFuncionario = salario;
+        }
+        else
+        {
+            throw new Exception("Salario informado não é válido");
+        }
+    }
+    public double GetSalarioFunc()
+    {
+        return salarioFuncionario;
+    }
     public bool ValidarCPF(string cpf)
     {
         cpf = cpf.Replace(".", "").Replace("-", "");
