@@ -8,7 +8,7 @@
     {
         Console.ReadKey();
         Console.Clear();
-        Console.Write("1 para cadastrar uma nova CONTA:\n2 para LISTAR as contas:\n3 realizar Operações Bancarias:\n4 para SAIR:\n\nOpção:");
+        Console.Write("1 para cadastrar uma nova CONTA:\n2 para LISTAR as contas:\n3 para realizar Operações Bancarias:\n4 para Cadastrar Funcionario\n5 para SAIR:\n\nOpção:");
         int op = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine();
         Console.WriteLine();
@@ -79,6 +79,28 @@
             }
         }
         else if (op == 4)
+        {
+            Funcionario func = new Funcionario();
+
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine("Cadastrar Funcionario");
+            Console.Write("Informe o ID do Funcionario: ");
+            func.SetIdFuncionario(Convert.ToInt32(Console.ReadLine()));
+            Console.Write("Informe o nome do Funcionario: ");
+            func.SetNomeFuncionario(Console.ReadLine());
+            Console.Write("Informe o CPF do Funcionario: ");
+            func.SetCpf(Console.ReadLine());
+            Console.Write("Informe a data de nascimento do Funcionario: ");
+            func.SetDataNascimentoFunc(Convert.ToDateTime(Console.ReadLine()));
+            Console.Write("Informe o e-mail do Funcionario: ");
+            func.SetEmailFuncionario(Console.ReadLine());
+            Console.Write("Informe a data de admissão do Funcionario: ");
+            func.SetDataAdmissaoFunc(Convert.ToDateTime(Console.ReadLine()));
+
+
+        }
+        else if (op == 5)
         {
             break;
         }
